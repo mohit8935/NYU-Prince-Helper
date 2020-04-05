@@ -52,9 +52,7 @@ ssh -Y prince
 
 # Setting up PyTorch and Open AI gym environement
 
-There is no module of Open AI gym on the cluster so to run most of RL models we need to install on our own.
-
-We can't install them directly on the cluster environment so we have to create a virtual environemt where our code will run.
+There is no module of Open AI gym on the cluster so to run most of RL models we need to install on our own. We can't install them directly on the cluster environment so we have to create a virtual environemt where our code will run.
 
 ### Creating Virtual Enviroment:
 
@@ -84,7 +82,7 @@ pip install gym
 pip install gym[atari]
 ```
 
-In the above code first we first load already installed modules on the cluster such as `python3` and `cuda`. You can also try loading `anaconda3` but it did't work for me. There is no need for `cudann` module as it will be loaded automatically with `python3`.
+In the above code firstly we load already installed modules on the cluster such as `python3` and `cuda`. You can also try loading `anaconda3` but it did't work for me. There is no need for `cudann` module as it will be loaded automatically with `python3`.
 
 To load any other module use can use `module avail` to see available list of modules, or search using `module keyword $keyword$`. 
 
