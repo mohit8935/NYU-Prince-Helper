@@ -91,11 +91,10 @@ After activating environment install all the modules you need for project. For m
 Then just run the file once using:
 ```
 cd directory of the file above created
-source create_env_sh
+source create_env.sh
 ```
 
-You only need to create environment once to easily start environment everytime create a new script as below:
-
+You only need to create environment once and then for starting a environment everytime you log in, create a new script file using the following steps
 ```
 nano run_env.sh
 ```
