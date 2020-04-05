@@ -207,19 +207,19 @@ Download link mentioned on NYU cluster is not working so I have attached the cor
 After installing:
 
 **Step 1:**
-Start Fugu.  Select SSH > new SSH tunnel
-*Create tunnel to: prince (or dumbo)
-*Service or port: 22
-*Local port: 8026 (8025 to dumbo)
-*Tunnel host: gw.hpc.nyu.edu
-*Username: <NetID>
+Start Fugu.  Select SSH &rarr new SSH tunnel
+* Create tunnel to: prince (or dumbo)
+* Service or port: 22
+* Local port: 8026 (8025 to dumbo)
+* Tunnel host: gw.hpc.nyu.edu
+* Username: <NetID>
 
 **Step 2:**
 In SFTP window
-*Connect to: localhost
-*Username: <NetID>
-*Port: 8026 (or 8025)
+* Connect to: localhost
+* Username: <NetID>
+* Port: 8026 (or 8025)
 
 **Step 3:**
-*Click connect and enter <NetID> password.
-*Drag and drop files to copy/paste to and from cluster.
+* Click connect and enter <NetID> password.
+* Drag and drop files to copy/paste to and from cluster.
