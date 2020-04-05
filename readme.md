@@ -91,7 +91,9 @@ Now create the environment by running:
 source create_env.sh
 ```
 
-You only need to create environment once and then for starting a environment everytime you just need to load all modules and activate environment `$HOME/mlenv/bin/activate`. 
+You only need to create environment once and then for starting a environment everytime you just need to load all modules and activate environment `source $HOME/mlenv/bin/activate`.
+
+To make things easy create a script for that:
 ```
 nano run_env.sh
 ```
@@ -102,7 +104,7 @@ module load cuda/10.0.130
 source $HOME/mlenv/bin/activate
 ```
 
-Remember to add all module load files you added in `create_env.sh` Then every time you log in just do `source run_env.sh`.
+To start environment: `source run_env.sh`.
 
 # Submitting Job on Prince
 
