@@ -84,17 +84,14 @@ pip install gym[atari]
 
 In the above code firstly we load already installed modules on the cluster such as `python3` and `cuda`. You can also try loading `anaconda3` but it did't work for me. There is no need for `cudann` module as it will be loaded automatically with `python3`.
 
-To load any other module use can use `module avail` to see available list of modules, or search using `module keyword $keyword$`. 
+To load any other module use can use `module avail` to see available list of modules, or search using `module keyword $keyword$`. After activating environment install all the modules using `pip` you need for project. 
 
-After activating environment install all the modules you need for project. For me I only need these 3 till now.
-
-Then just run the file once using:
+Now create the environment by running:
 ```
-cd directory of the file above created
 source create_env.sh
 ```
 
-You only need to create environment once and then for starting a environment everytime you log in, create a new script file using the following steps
+You only need to create environment once and then for starting a environment everytime you just need to load all modules and activate environment `$HOME/mlenv/bin/activate`. 
 ```
 nano run_env.sh
 ```
