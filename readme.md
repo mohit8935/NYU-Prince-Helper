@@ -1,12 +1,12 @@
 This is a setup guide to run RL models on NYU HPC Prince cluster.
 
 ### Table of Contents:
-* **[Logging In](#Logging-on-Prince:)**
-* **[Setting up environemnt](#Setting-up-PyTorch-and-Open-AI-gym-environement:)**
+* **[Logging In](#Logging-on-Prince)**
+* **[Setting up environemnt](#Setting-up-PyTorch-and-Open-AI-gym-environement)**
 * **[Submitting Job](#Submitting-Job-on-Prince)**
-* **[Transferring files:](#Transferring-files-to-Prince:)**
+* **[Transferring files:](#Transferring-files-to-Prince)**
 
-# Logging on Prince:
+# Logging on Prince
 From your terminal:
 ```
 ssh user_id@gw.hpc.nyu.edu
@@ -50,7 +50,7 @@ ssh hpcgwtunnel
 ssh -Y prince
 ```
 
-# Setting up PyTorch and Open AI gym environement:
+# Setting up PyTorch and Open AI gym environement
 
 There is no module of Open AI gym on the cluster so to run most of RL models we need to install on our own.
 
@@ -182,7 +182,7 @@ scancel $job_id$
 
 Output of the file (such as logs and standard output and erro) will be created in the directory from where you subimitted the job
 
-# Transferring files to Prince:
+# Transferring files to Prince
 
 ### Using SCP (Recommended):
 
